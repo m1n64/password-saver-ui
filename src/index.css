@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply h-full bg-slate-200;
+}
+
+#app {
+    @apply h-full;
+}
+
+.btn-main {
+    @apply bg-emerald-500 text-white py-2 px-4 rounded-lg hover:bg-emerald-700 disabled:bg-emerald-300;
+}
+
+.input-main {
+    @apply bg-white rounded-lg focus:bg-white border-solid border-2 focus:outline-none focus-visible:valid:focus:border-emerald-500 px-3 py-1;
+}
+
+.main-block {
+    @apply container mx-auto p-5 bg-white rounded-lg mt-10;
+}
