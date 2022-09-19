@@ -1,6 +1,6 @@
 import { createStore } from 'vuex'
 import {auth} from "@/store/auth.module";
-import {city} from "@/store/city.module";
+import {passwords} from "@/store/passwords.module";
 
 export default createStore({
   state: {
@@ -22,6 +22,6 @@ export default createStore({
   },
   modules: {
     auth,
-    city
+    passwords
   }
 })

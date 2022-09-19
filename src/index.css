@@ -21,3 +21,11 @@ html, body {
 .main-block {
     @apply container mx-auto p-5 bg-white rounded-lg mt-10;
 }
+
+.category-icon > svg {
+    @apply fill-gray-600;
+}
+
+.data-border {
+    @apply px-3 bg-gray-200 rounded-lg w-[60%] lg:w-[20%]; /*border-b-2 border-solid border-b-emerald-500*/;
+}
